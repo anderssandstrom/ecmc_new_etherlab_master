@@ -6,9 +6,20 @@ Test etherlab master with patches
 CS-Entry install (rt patch and etherlab):
 https://csentry.esss.lu.se/network/hosts/view/mcag-dev-asm-04
 
-$etherlab version
+
+```
+$ethercat version
 IgH EtherCAT master 1.5.2 334c34cfd2e5+
 
+# and this is this version
+changeset:   2303:334c34cfd2e5
+branch:      stable-1.5
+tag:         tip
+user:        Florian Pose <fp@igh.de>
+date:        Thu Sep 03 12:53:53 2020 +0200
+summary:     Improved debugging and behavior on sick SII contents.
+
+```
 
 ## Instalaltion process
 Copy https://github.com/paulscherrerinstitute/ethercat into etherlabmaster-code dir of https://github.com/icshwi/etherlabmaster
@@ -49,4 +60,10 @@ IgH EtherCAT master 1.5.2 unknown
 $sudo systemctl stop ethercat
 $sudo systemctl start ethercat
 ```
+
+make install in etherlabmaster:
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /opt/etherlab/lib
+
 
