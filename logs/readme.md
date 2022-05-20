@@ -9,7 +9,14 @@ https://github.com/anderssandstrom/ecmc_multi_master_test/blob/master/master0/st
 
 IMPORTANT: TESTS where run on different hw.
 
+
+
 ## New master
+
+ecmc_rt 25% cpu
+
+multi-user.target
+
 Running on an old nuc (the big version):
 ```
 [anderssandstrom@mcag-dev-asm-04-usb ~]$ lshw
@@ -212,6 +219,11 @@ WARNING: output may be incomplete or inaccurate, you should run this program as 
 ```
 
 ## Old master
+
+ecmc_rt 10% cpu
+
+graphical.target
+
 Running on an newer black nuc (the big version):
 
 ```
