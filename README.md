@@ -110,3 +110,39 @@ $ ls -la  /lib/modules/3.10.0-1062.12.1.rt56.1042.el7.x86_64/extra/ec_generic.ko
 
 Not sure why version is "unkown"?!!?
 
+
+
+## OTHER SYSTEM OLD MASTER FOR COMPARISON
+
+```
+$ ethercat version
+IgH EtherCAT master 1.5.2 334c34cfd2e5+
+
+$ modinfo ec_master
+filename:       /lib/modules/3.10.0-1062.12.1.rt56.1042.el7.x86_64/extra/ec_master.ko.xz
+version:        1.5.2 unknown
+license:        GPL
+description:    EtherCAT master driver module
+author:         Florian Pose <fp@igh-essen.com>
+retpoline:      Y
+rhelversion:    7.7
+srcversion:     28E1AC457BCCF9056582029
+depends:        
+vermagic:       3.10.0-1062.12.1.rt56.1042.el7.x86_64 SMP preempt mod_unload modversions 
+parm:           main_devices:MAC addresses of main devices (array of charp)
+parm:           backup_devices:MAC addresses of backup devices (array of charp)
+parm:           debug_level:Debug level (uint)
+
+$ modinfo ec_generic
+filename:       /lib/modules/3.10.0-1062.12.1.rt56.1042.el7.x86_64/extra/ec_generic.ko.xz
+version:        1.5.2 unknown
+license:        GPL
+description:    EtherCAT master generic Ethernet device module
+author:         Florian Pose <fp@igh-essen.com>
+retpoline:      Y
+rhelversion:    7.7
+srcversion:     1AE486D6201500C92B67C63
+depends:        ec_master
+vermagic:       3.10.0-1062.12.1.rt56.1042.el7.x86_64 SMP preempt mod_unload modversions 
+```
+
