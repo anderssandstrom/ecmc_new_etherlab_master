@@ -14,6 +14,8 @@ MASTER0:MCU-ThdLatMax[167750] 1208.0..18971.0, mean: 1384.0919284649776, std: 37
 
 # Stats data set 2: old_master_lat_2*
 
+cpu load approx 8.5%
+
 cat old_master_lat_2* | python ~/sources/ecmccomgui/pyDataManip/plotCaMonitor.py 
 Added PV: MASTER0:MCU-ThdLatMax
 Statistics: 
