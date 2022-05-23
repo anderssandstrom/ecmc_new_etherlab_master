@@ -7,8 +7,7 @@ Both systems was tested with a setup with 54 ethercat slaves and 30 virtual axes
 This startup file was used:
 https://github.com/anderssandstrom/ecmc_multi_master_test/blob/master/master0/st.cmd
 
-IMPORTANT: TESTS where run on different hw.
-
+IMPORTANT: TESTS where run on different hw and is not FAIR.. NEED to test on same controller...
 
 
 ## New master
