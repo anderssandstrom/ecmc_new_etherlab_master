@@ -21,7 +21,8 @@ summary:     Improved debugging and behavior on sick SII contents.
 
 ```
 
-## Instalaltion process
+## Installation process
+
 Copy https://github.com/paulscherrerinstitute/ethercat into etherlabmaster-code dir of https://github.com/icshwi/etherlabmaster
 
 ```
@@ -30,7 +31,7 @@ $cd etherlabmaster
 $make init
 
   210  2022-05-19 13:42:40 ls
-  211  2022-05-19 13:42:54 mv etherlabmaster-code/ etherlabmaster-code_bcak/
+  211  2022-05-19 13:42:54 mv etherlabmaster-code/ etherlabmaster-code_hg/
   212  2022-05-19 13:43:21 cp -r ../ethercat etherlabmaster-code
   213  2022-05-19 13:43:23 ls
   214  2022-05-19 13:43:30 make build
@@ -56,7 +57,8 @@ $ethercat version
 IgH EtherCAT master 1.5.2 unknown
 
 
-# Needed to copy /etc/ethercat.conf from other system to this and chaneg mac then
+# Needed to copy /etc/ethercat.conf from other system to this and change mac then
+
 $sudo systemctl stop ethercat
 $sudo systemctl start ethercat
 
