@@ -1,15 +1,13 @@
 # Conclusion
 
 1. Do NOT run in graphical.target
-2. Seems similar latecny performance of old and new master
-3. (Seems new etherlab master results in slightly lower latency. BUT need to run test, old master and without graphics to confirm)
-4. IMPORTANT!!! When using new master the ecmc IOC was not always starting OK.. needs more tests.. hmmm
-5. New and old master have comparable latency performance in multi-user.target with graphics installed.
+2. Seems similar latency performance of old and new master
+3. IMPORTANT!!! When using new master the ecmc IOC was not always starting OK.. needs more tests.. hmmm
 
 Best configuration based on the few tests:
 1. New etherlab master, multi-user.target (no graphics installed)
-2. New etherlab master, multi-user.target (graphics installed)
-3. Old etherlab master, multi-user.target (graphics installed)
+2. Old etherlab master, multi-user.target (graphics installed)
+3. New etherlab master, multi-user.target (graphics installed)
 4. Old etherlab master, graphical.target
 5. New etherlab master, graphical.target
 
