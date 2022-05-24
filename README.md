@@ -1,5 +1,8 @@
 # ecmc_new_etherlab_master
-Test etherlab master with patches
+Test etherlab master with patches:
+https://github.com/paulscherrerinstitute/ethercat
+
+Commit: b3084de2050d46e671af2fca70855443421d022d
 
 ## Start conditions
 
