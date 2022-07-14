@@ -8,6 +8,10 @@ This startup file was used:
 https://github.com/anderssandstrom/ecmc_multi_master_test/blob/master/master0/st.cmd
 
 
+## Starts
+Seems harder to start IOC:S with new master- Sometimes need to be restarted?!. But when the IOC start is seems to start faster with new master.
+
+
 ## New master
 
 ecmc_rt 10% cpu
